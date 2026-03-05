@@ -1,0 +1,45 @@
+.box{
+    width:100px;
+    height:100px;
+    transition: 0.78s;
+    background: red;
+    animation: moveBox 10s initial;
+}
+
+.box:hover{
+    background: green;
+    transform: scale(2.3);
+
+}
+
+@keyframes moveBox{
+    0%{transform: translatey(0);}
+    50%{transform:translatey(300px);}
+    100%{transform:translatex(0);}
+}
+
+button{
+    padding:12px 25px;
+    font-size: 18px;
+    color: white;
+    background: blue;
+    border: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+button:hover{
+    background: darkblue;
+    animation: glow 20s infinite;
+
+}
+@keyframes glow{
+    0%{
+        box-shadow:0 0 5px blue;
+        transform: scale(1);
+
+    }
+    100%{
+        box-shadow:0 0 25px cyan,0 0 50px cyan;
+        transform:scale(1,1);
+    }
+}
