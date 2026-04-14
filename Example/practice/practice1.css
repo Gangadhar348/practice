@@ -1,0 +1,40 @@
+header{
+    text-align: center;
+    background-color: #78C0E0;
+    font-family: Arial;
+    height: 60px;
+    color: white;
+   
+    
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    height: 60px;
+    background-color: #449DD1;
+    
+}
+a{
+     color: white;
+     text-decoration: none;
+}
+.container{
+    background-color: #192BC2;
+    color: white;
+    font-family: Arial;
+    padding: 20px;
+
+}
+footer{
+   background-color: #1a0f6b;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+body{
+    margin: 0;
+}
+a:hover{
+    color: yellow;
+}

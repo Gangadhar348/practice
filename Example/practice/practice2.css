@@ -1,0 +1,71 @@
+body{
+font-family: Arial;
+background:#dcdcdc;
+}
+
+.title{
+text-align:center;
+color:purple;
+text-decoration:underline;
+}
+
+.form-container{
+
+width:750px;
+margin:auto;
+background:linear-gradient(to right,#6a5acd,#7b68ee);
+padding:20px;
+border:2px solid black;
+
+}
+
+table{
+width:100%;
+color:white;
+}
+
+td{
+padding:8px;
+vertical-align:top;
+}
+
+input[type=text],
+input[type=email],
+textarea{
+padding:5px;
+border:none;
+}
+
+span{
+font-size:12px;
+color:#e0e0e0;
+margin-left:5px;
+}
+
+textarea{
+width:300px;
+}
+
+.qualification{
+
+width:100%;
+margin-top:10px;
+}
+
+.qualification th,
+.qualification td{
+border:1px solid white;
+padding:5px;
+text-align:center;
+}
+
+.buttons{
+text-align:center;
+padding-top:20px;
+}
+
+button{
+padding:6px 12px;
+border:1px solid black;
+cursor:pointer;
+}

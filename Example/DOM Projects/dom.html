@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM EXAMPLE</title>
+</head>
+<link rel="stylesheet" href="dom.css">
+<body>
+    <h1 id="heading">Welcome to Dom</h1>
+    <button onclick="changeStyle()">click Me</button>
+    <p class="text">text1</p>
+<p class="text">text2</p>
+
+<div class="box">
+    <h3>getElementsByClassName</h3>
+    <button onclick="makeRed()">Make all red</button>
+</div>
+<div>
+    <p> one</p>
+    <p>Two</p>
+    <button onclick="countParagraphs()">Count paragraphs</button>
+</div>
+<script>
+    function makeRed(){
+        let items=document.
+        getElementsByClassName("text");
+        for(let i=0;i<items.length;i++){
+            items[i].style.color="red"
+        }
+    }
+    function countParagraphs(){
+        let pTags=document.getElementsByTagName("p");
+        console.log(pTags.length);
+    }
+    function changeStyle(){
+        let element=document.getElementById("heading");
+        element.innerHTML="DOM Changed Successfully!";
+        element.style.color="red";
+        document.body.style.backgroundColor="yellow";
+    }
+</script>
+</body>
+<script src="script.js"></script>
+</html>

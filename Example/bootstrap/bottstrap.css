@@ -1,0 +1,23 @@
+.login{
+    margin-top: 25%;
+    width:400px;
+    height: 200px;
+    border: 2px solid black;
+}
+.lin{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.username{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.password{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
