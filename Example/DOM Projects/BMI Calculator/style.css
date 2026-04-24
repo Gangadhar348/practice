@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+}
+form{
+    text-align: center;
+    padding: 20px;
+    background-color: #C9996B;
+    height: 300px;
+    width:500px  ;
+    margin-left: 33%;
+    margin-top: 60px;
+     color:  #0F172A;
+     border-radius: 10px
+}
+body{
+    background-color: #EDE9E6;
+   
+}
+

@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    
+}
+.main-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+h1{
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.red{
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+}
+.yellow{
+    background-color: yellow;
+    border: none;
+    border-radius: 10px;
+}
+.green{
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+}
+.pink{
+    background-color: pink;
+    border: none;
+    border-radius: 10px;
+}
+.purple{
+    background-color: purple;
+    border: none;
+    border-radius: 10px;
+}
+.black{
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+}
