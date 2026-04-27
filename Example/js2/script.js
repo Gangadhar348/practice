@@ -86,6 +86,52 @@ let { empname: employeename } = employee;
 
 // Destructuring
 function greet({ name3, age2 }) {
-  console.log(name3, age2);
+  // console.log(name3, age2);
 }
 greet({ name3: "abc", age2: 22 });
+
+// let newStr = "madam";
+// let result1 = "";
+// for (let i = newStr.length - 1; i >= 0; i--) {
+//   result1 = result1 + newStr[i];
+//   if (result1 === newStr) {
+//     console.log(`this ${result1} is matched with ${newStr}`);
+//   }
+// }
+// let newWord = "Hello";
+// let result2 = "";
+// for (let j = newWord.length - 1; j >= 0; j--) {
+//   result2 = result2 + newWord[j];
+// }
+// if (result2 === newWord) {
+//   //   console.log(`this ${result2} is matched with ${newWord}`);
+//   // } else {
+//   // console.log(`this ${result2} are not matched with ${newWord}`);
+// }
+
+// let newArr2 = [3, 7, 2, 9, 5];
+// let max = arr[0];
+// for (let i = 0; i <= newArr2.length; i++) {
+//   if (i > max) {
+//     max = newArr2[i];
+//   }
+// }
+// console.log(max);
+
+let arr = [10, 5, 20, 8];
+
+let largest = -Infinity;
+let secondLargest = -Infinity;
+
+for (let i = 0; i < arr.length; i++) {
+  let num = arr[i];
+
+  if (num > largest) {
+    secondLargest = largest;
+    largest = num;
+  } else if (num < largest && num > secondLargest) {
+    secondLargest = num;
+  }
+}
+
+console.log(secondLargest);
