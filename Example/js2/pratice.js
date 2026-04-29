@@ -234,6 +234,41 @@
 //   console.log(i);
 // }
 
-// let count = 0;
+// while
+// let num = [];
+// let i = 10;
+// while (i >= 0) {
+//   if (i === 5) {
+//     break;
+//   }
+//   i--;
+//   num.push(i);
+// }
+// console.log(num);
 
-// DOM
+// itrations
+let arr = [
+  {
+    user: "ram",
+    age: 14,
+  },
+  {
+    user: "shiva",
+    age: 22,
+  },
+  {
+    user: "rahul",
+    age: 45,
+  },
+  {
+    user: "Nayan",
+    age: 55,
+  },
+];
+for (const i of arr) {
+  if (i.age <= 18) {
+    console.log("They ar under age");
+  } else if (i.age >= 18) {
+    console.log(`${i.user} and ${i.age} `);
+  }
+}
